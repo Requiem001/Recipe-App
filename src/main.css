@@ -1,0 +1,32 @@
+.page {
+    width: 720px;
+    background-color: white;
+}
+
+
+.add-ingredient {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 67px;
+}
+
+.add-ingredient >input {
+    border-radius: 6px;
+    width: 400px;
+    padding: 9px 13px 9px 13px;
+    border: solid;
+    border-width: 1px;
+    border-color: rgba(209, 213, 219, 1);
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    outline: none;
+}
+.add-ingredient > button {
+    font-size: 14px;
+    color: white;
+    width: 183px;
+    border: none;
+    border-radius: 6px;
+    background-color: rgba(20, 20, 19, 1);
+    box-shadow: 0px 1px 2px rgba(20, 20, 19, 1);
+}
